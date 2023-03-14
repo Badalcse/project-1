@@ -107,7 +107,7 @@ input{
 .right {
     height: 300px;
     width: 300px;
-    border-radius: 80%;
+    border-radius: 0%;
 }
 footer{
     display: flex;

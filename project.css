@@ -1,0 +1,127 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+li {
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: red;
+    padding: 4px 10px;
+    cursor: pointer;
+    color: rgb(22, 17, 17);
+    border: 1px solid #1b1010;
+    border-radius: 5px;
+    font-weight: 600px;
+    width: fit-content;
+}
+button:hover {
+    background-color: #f1f1f1;
+    color: black;
+    border: 1px solid black;
+}
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+nav.logo {
+    font-weight: 1000;
+    font-size: 70px;
+}
+nav ul {
+    display:flex;
+    align-items: center;
+    gap: 40px;
+    font-weight: 500;
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+.Search-box {
+    display: flex;
+    gap: 35px;
+}
+input{
+    padding: 4px 10px;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+}
+.left h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.span {
+    color: blue;
+    font-weight: 900;
+    font-size: 2.5 rem;
+
+}
+
+.left p{
+    font-weight: 500;
+}
+.p-span{
+    font-weight: 700;
+    font-size: 25px;
+    color: goldenrod;
+
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.button {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.right {
+    height: 300px;
+    width: 300px;
+    border-radius: 80%;
+}
+footer{
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    justify-content: space-around;
+}
+footer p {
+    font-weight: 600;
+
+
+}
+footer ul{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}

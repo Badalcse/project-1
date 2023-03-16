@@ -125,3 +125,8 @@ footer ul{
     gap: 100px;
     align-items: center;
 }
+p{
+    font-family: 'Cairo', sans-serif;
+font-family: 'Edu NSW ACT Foundation', cursive;
+font-family: 'PT Sans Narrow', sans-serif;
+}
